@@ -1,1 +1,2 @@
-# Movie App built by React, Apollo, graphQL
+# Movie App
+built with React, Apollo, graphQL
