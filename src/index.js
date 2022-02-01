@@ -2,13 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import App from './components/App';
 import client from './apollo';
-import {
-  ApolloClient,
-  InMemoryCache,
-  ApolloProvider,
-  useQuery,
-  gql
-} from "@apollo/client";
+import { ApolloProvider } from "@apollo/client";
 
 ReactDOM.render(
   <ApolloProvider client={client}>
